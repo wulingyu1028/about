@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吴玲玉 | 医疗算法工程师</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --card: #fff;
+    --text: #2d3436;
+    --sub: #636e72;
+    --accent: #0984e3;
+    --border: #e0e0e0;
+    --tag-bg: #e8f4fd;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+
+  /* Header */
+  header { margin-bottom: 40px; }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { color: var(--sub); font-size: 15px; margin-bottom: 12px; }
+  .contact {
+    display: flex; flex-wrap: wrap; gap: 8px 20px;
+    font-size: 13px; color: var(--sub);
+  }
+  .contact span::before { margin-right: 4px; }
+  header a { color: var(--accent); text-decoration: none; }
+
+  /* Section */
+  section { margin-bottom: 32px; }
+  h2 {
+    font-size: 18px; font-weight: 700; margin-bottom: 16px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--accent);
+  }
+  h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+
+  /* Cards */
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;
+    box-shadow: var(--shadow);
+  }
+  .card .date { float: right; font-size: 13px; color: var(--sub); }
+  .card .role { font-size: 14px; color: var(--sub); margin-bottom: 6px; }
+  .card ul { margin-left: 18px; font-size: 14px; color: #555; }
+  .card li { margin-bottom: 2px; }
+
+  /* Tags */
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag {
+    background: var(--tag-bg); color: var(--accent);
+    padding: 2px 10px; border-radius: 12px; font-size: 12px;
+  }
+
+  /* Stats */
+  .stats { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; }
+  .stat { text-align: center; }
+  .stat .num { font-size: 24px; font-weight: 700; color: var(--accent); }
+  .stat .label { font-size: 12px; color: var(--sub); }
+
+  /* Print */
+  @media print {
+    body { background: #fff; }
+    .card { box-shadow: none; border: 1px solid #ddd; page-break-inside: avoid; }
+  }
+  @media (max-width: 500px) {
+    .container { padding: 24px 14px 60px; }
+    h1 { font-size: 24px; }
+    .stats { gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<header>
+  <h1>吴玲玉</h1>
+  <p class="subtitle">医疗算法工程师 · 临床数据科学家</p>
+  <div class="contact">
+    <span>📧 wlyame@163.com</span>
+    <span>📱 13684025079</span>
+    <span>📍 深圳</span>
+    <span>🔗 <a href="https://github.com/wulingyu1028">github.com/wulingyu1028</a></span>
+  </div>
+</header>
+
+<!-- 核心指标 -->
+<div class="stats">
+  <div class="stat"><div class="num">8年+</div><div class="label">医疗AI & 数据挖掘</div></div>
+  <div class="stat"><div class="num">20+</div><div class="label">科研技术项目</div></div>
+  <div class="stat"><div class="num">10+</div><div class="label">中英文论文</div></div>
+  <div class="stat"><div class="num">3篇</div><div class="label">JCR Q1/Q2 SCI</div></div>
+</div>
+
+<!-- 核心优势 -->
+<section>
+  <h2>核心优势</h2>
+  <div class="card">
+    <p style="font-size:14px;color:#555;">
+      医学+算法复合背景。能精准识别临床痛点，用严谨的统计学设计加上全栈算法能力，把临床问题转化为可验证、可落地的AI模型，最终输出学术成果和循证证据，实现<strong>从医疗AI到临床应用的完整闭环</strong>。
+    </p>
+    <div class="tags">
+      <span class="tag">临床理解</span>
+      <span class="tag">统计学设计</span>
+      <span class="tag">算法工程</span>
+      <span class="tag">学术产出</span>
+      <span class="tag">项目管理</span>
+    </div>
+  </div>
+</section>
+
+<!-- 教育 -->
+<section>
+  <h2>教育背景</h2>
+  <div class="card">
+    <span class="date">2014 – 2017</span>
+    <h3>公共卫生硕士 · 四川大学（985）</h3>
+    <div class="role">华西公共卫生学院</div>
+  </div>
+  <div class="card">
+    <span class="date">2009 – 2014</span>
+    <h3>预防医学学士 · 福建医科大学</h3>
+  </div>
+</section>
+
+<!-- 工作经历 -->
+<section>
+  <h2>工作经历</h2>
+
+  <div class="card">
+    <span class="date">2025.07 – 至今</span>
+    <h3>国家健康医疗大数据研究院（深圳）</h3>
+    <div class="role">工程师 / 科研项目负责人</div>
+    <ul>
+      <li>负责慢性病、儿保、儿科方向的AI研究设计与技术落地</li>
+      <li>主导多模态医学数据融合（影像+EHR+基因组学）+ 高维生物标志物挖掘</li>
+      <li>负责科研项目全生命周期管理，直接向院长汇报</li>
+      <li>主导1项医学AI辅助工具的临床合规验证</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">多模态融合</span>
+      <span class="tag">CDSS</span>
+      <span class="tag">临床NLP</span>
+      <span class="tag">数据治理</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="date">2021.07 – 2024.12</span>
+    <h3>深圳臻络科技有限公司</h3>
+    <div class="role">数据研究员</div>
+    <ul>
+      <li>从临床业务需求出发，主导研究方案设计、数据挖掘与机器学习建模</li>
+      <li>基于可穿戴设备与语音信号构建PD智能评估模型，ICC=0.95 (JCR Q1, IF=5.2)</li>
+      <li>PD语音早期筛查模型AUC=0.93，敏感度0.95，超越普通神经科医生 (JCR Q2, IF=4.1)</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">时序信号</span>
+      <span class="tag">XGBoost+SHAP</span>
+      <span class="tag">可穿戴设备</span>
+      <span class="tag">语音AI</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="date">2018.06 – 2021.07</span>
+    <h3>深圳华大基因科技服务有限公司</h3>
+    <div class="role">信息分析工程师</div>
+    <ul>
+      <li>用Python/R处理组学大数据，编写自动化pipeline</li>
+      <li>大规模人群基因组多样性分析与疾病风险评估建模</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">基因组学</span>
+      <span class="tag">Python/R</span>
+      <span class="tag">大数据处理</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="date">2017.07 – 2018.06</span>
+    <h3>四川科伦药物研究院</h3>
+    <div class="role">临床科学家（统计专员）</div>
+    <ul>
+      <li>全程跟踪临床试验数据管理与统计分析全流程</li>
+      <li>CRF设计、数据核查、SAP审阅到统计分析报告</li>
+      <li>完成20+项目统计设计，促成10+仿制药顺利申报</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">临床试验</span>
+      <span class="tag">SAS</span>
+      <span class="tag">统计设计</span>
+    </div>
+  </div>
+</section>
+
+<!-- 代表性项目 -->
+<section>
+  <h2>代表性项目</h2>
+  <div class="card">
+    <span class="date">2022 – 2024</span>
+    <h3>帕金森病智能评估系列（5篇国际期刊论文）</h3>
+    <ul>
+      <li>药物反应评估：10通道惯性传感器 + XGBoost，ICC=0.95，JCR Q1 (IF=5.2)</li>
+      <li>语音早期筛查：基于持续元音 + Random Forest，AUC=0.93，超越普通医生，JCR Q2 (IF=4.1)</li>
+      <li>覆盖PD药物反应、早期筛查、言语损伤、认知关联、遗传多态性等多个维度</li>
+    </ul>
+  </div>
+  <div class="card">
+    <span class="date">2024 – 2025</span>
+    <h3>T2DM+MAFLD肝纤维化预测模型</h3>
+    <ul>
+      <li>基于NHANES大数据（15,560→663例），嵌套CV + XGBoost + SHAP + DCA</li>
+      <li>AUC=0.80，超越5种传统临床评分（FIB-4, APRI, NFS等）</li>
+    </ul>
+  </div>
+  <div class="card">
+    <span class="date">2025 – 至今</span>
+    <h3>高危儿GMs智能评估平台</h3>
+    <ul>
+      <li>2,048条记录数据治理，临床指南编制，AI辅助工具合规验证</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 技术能力 -->
+<section>
+  <h2>技术能力</h2>
+  <div class="card">
+    <div class="tags">
+      <span class="tag">Python/R</span>
+      <span class="tag">XGBoost/LightGBM</span>
+      <span class="tag">SHAP/DCA</span>
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">PyTorch</span>
+      <span class="tag">SAS</span>
+      <span class="tag">MediaPipe/OpenCV</span>
+      <span class="tag">Pandas/NumPy</span>
+      <span class="tag">信号处理</span>
+      <span class="tag">统计学建模</span>
+      <span class="tag">生存分析</span>
+      <span class="tag">临床试验设计</span>
+    </div>
+  </div>
+</section>
+
+<!-- 学术产出 -->
+<section>
+  <h2>学术产出</h2>
+  <div class="card">
+    <ul>
+      <li><strong>10+ 篇中英文论文</strong>，含3篇JCR Q1/Q2 SCI（共同一作）</li>
+      <li>代表性论文：JCR Q1 <em>Journal of NeuroEngineering and Rehabilitation</em> (IF=5.2)</li>
+      <li>英语可独立撰写SCI论文，CET6 / TOEFL</li>
+    </ul>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
